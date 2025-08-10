@@ -1,0 +1,70 @@
+/* Robel Media - Color Override Only */
+/* Add this AFTER your main CSS file */
+
+:root {
+  /* ========== */
+  /* 1. BRAND COLORS */
+  /* ========== */
+  --robel-navy: rgb(159, 193, 245);      /* Header, Dark BG */
+  --robel-blue: #3E92CC;      /* Primary Buttons */
+  --robel-coral: #FF715B;     /* Accents, Highlights */
+  --robel-purple: #7D5BA6;    /* Secondary Accent */
+  --robel-dark: #2E2E2E;      /* Body Text */
+  --robel-light: #F5F5F5;     /* Light BG */
+}
+
+/* ========== */
+/* 2. CORE COLOR OVERRIDES */
+/* ========== */
+
+/* Header */
+.header-area {
+  background-color: var(--robel-navy) !important;
+}
+
+/* Buttons */
+.main-blue-button a {
+  background-color: var(--robel-blue) !important;
+}
+.main-blue-button a:hover {
+  background-color: var(--robel-navy) !important;
+}
+
+.main-red-button a {
+  background-color: var(--robel-coral) !important;
+}
+
+/* Text */
+.section-heading h2 em {
+  color: var(--robel-blue) !important;
+}
+.section-heading h2 span {
+  color: var(--robel-coral) !important;
+}
+
+/* Forms */
+form#contact button {
+  background-color: var(--robel-blue) !important;
+}
+form#contact button:hover {
+  background-color: var(--robel-navy) !important;
+}
+
+/* Preloader */
+.preloader-inner .dot,
+.preloader-inner .dots span {
+  background-color: var(--robel-coral) !important;
+}
+
+/* ========== */
+/* 3. BACKGROUNDS */
+/* ========== */
+.about-us {
+  background: linear-gradient(rgba(10,36,99,0.9), rgba(10,36,99,0.9)), 
+              url(../images/about-bg.png) !important;
+}
+
+.contact-us {
+  background: linear-gradient(rgba(10,36,99,0.9), rgba(10,36,99,0.9)), 
+              url(../images/contact-bg.png) !important;
+}
